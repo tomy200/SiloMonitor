@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carpeta privada de la app donde se guardan las fotos de perfil e incidencias. -->
+<paths>
+    <files-path
+        name="imagenes"
+        path="imagenes/" />
+</paths>
