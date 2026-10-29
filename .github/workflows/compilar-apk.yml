@@ -1,0 +1,36 @@
+# Compila la app en los servidores de GitHub (sin instalar nada en tu PC).
+# Cada vez que se sube un cambio a main se ejecutan las pruebas y se genera el APK.
+name: Compilar APK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch: # permite ejecutarlo a mano desde la pestaña Actions
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Preparar Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Pruebas unitarias y compilación del APK
+        run: |
+          chmod +x gradlew
+          ./gradlew test assembleDebug
+
+      - name: Publicar el APK para descargarlo
+        uses: actions/upload-artifact@v4
+        with:
+          name: SiloMonitor-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
