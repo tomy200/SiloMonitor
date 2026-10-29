@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SiloMonitor</string>
+    <string name="canal_alertas_nombre">Alertas de silos</string>
+    <string name="canal_alertas_descripcion">Avisos cuando un silo baja a nivel de advertencia o crítico</string>
+</resources>

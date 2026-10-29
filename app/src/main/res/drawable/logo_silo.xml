@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo/ilustración de la app: un silo lleno y uno en nivel crítico. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Fondo circular -->
+    <path
+        android:fillColor="#E3F2DF"
+        android:pathData="M100,100m-96,0a96,96 0,1 1,192 0a96,96 0,1 1,-192 0" />
+    <!-- Sol -->
+    <path
+        android:fillColor="#F2B53A"
+        android:pathData="M156,46m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <!-- Suelo -->
+    <path
+        android:fillColor="#2D6A3E"
+        android:pathData="M17,148H183A96,96 0,0 1,17 148Z" />
+
+    <!-- Silo 1 (lleno) -->
+    <path
+        android:fillColor="#8A9A88"
+        android:pathData="M70,34L98,56H42Z" />
+    <path
+        android:fillColor="#F3F6EE"
+        android:pathData="M44,56h52v92h-52z" />
+    <path
+        android:fillColor="#F2B53A"
+        android:pathData="M44,84h52v64h-52z" />
+    <path
+        android:fillColor="#C8D2C2"
+        android:pathData="M44,70h52v3h-52z" />
+    <path
+        android:fillColor="#D9962A"
+        android:pathData="M44,104h52v3h-52z" />
+    <path
+        android:fillColor="#D9962A"
+        android:pathData="M44,126h52v3h-52z" />
+
+    <!-- Silo 2 (nivel crítico) -->
+    <path
+        android:fillColor="#8A9A88"
+        android:pathData="M127,52L150,70H104Z" />
+    <path
+        android:fillColor="#F3F6EE"
+        android:pathData="M106,70h42v78h-42z" />
+    <path
+        android:fillColor="#D9534F"
+        android:pathData="M106,134h42v14h-42z" />
+    <path
+        android:fillColor="#C8D2C2"
+        android:pathData="M106,92h42v3h-42z" />
+    <path
+        android:fillColor="#C8D2C2"
+        android:pathData="M106,114h42v3h-42z" />
+</vector>

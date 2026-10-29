@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- El tema visual real se define en Compose (ui/theme/Theme.kt con Material 3). -->
+    <style name="Theme.SiloMonitor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/fondo_inicial</item>
+    </style>
+</resources>

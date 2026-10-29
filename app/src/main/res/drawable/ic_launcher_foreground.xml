@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Techo -->
+    <path
+        android:fillColor="#C9D3C3"
+        android:pathData="M54,26L73,38H35Z" />
+    <!-- Cuerpo del silo -->
+    <path
+        android:fillColor="#F3F6EE"
+        android:pathData="M37,38h34v42h-34z" />
+    <!-- Nivel de alimento -->
+    <path
+        android:fillColor="#F2B53A"
+        android:pathData="M37,58h34v22h-34z" />
+    <!-- Anillos -->
+    <path
+        android:fillColor="#C9D3C3"
+        android:pathData="M37,47h34v2h-34z" />
+    <path
+        android:fillColor="#D9962A"
+        android:pathData="M37,68h34v2h-34z" />
+    <!-- Suelo -->
+    <path
+        android:fillColor="#1B4D2B"
+        android:pathData="M28,80h52v4h-52z" />
+</vector>
